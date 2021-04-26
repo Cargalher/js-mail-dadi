@@ -1,0 +1,13 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 20px;
+}
+.container{
+    background-color: bisque;
+    border:2px solid brown;
+    width:50%;
+    margin: auto;
+    text-align: center;
+    
+}

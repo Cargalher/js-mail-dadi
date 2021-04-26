@@ -29,12 +29,12 @@ console.log(diceRoll);
 // random number_Computer
 var computerDice = diceRoll[Math.floor(Math.random() * 6)];
 console.log("The computer rolls a "+ computerDice);
-
+document.getElementById('dices').innerHTML= "The computer rolls a " + computerDice ;
 
 // random number_User
 var userDice = diceRoll[Math.floor(Math.random() * 6)];
 console.log("The user rolls a "+ userDice);
-
+document.getElementById('dices').innerHTML= "The user rolls a " + userDice ;
 
 if (userDice > computerDice) {
     console.log("You roll a " + userDice + " and the computer rolls a " + computerDice + ". You Win!!" );
