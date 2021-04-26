@@ -4,7 +4,7 @@
     padding: 20px;
 }
 .container{
-    background-color: bisque;
+    background-color: red;
     border:2px solid brown;
     width:50%;
     margin: auto;
@@ -13,7 +13,9 @@
     color: transparent;
     
 }
-
+h2{
+    font-family: 'Pacifico', cursive;
+}
 i{
     color: white;
     transform: translate(-50%, -50%);
@@ -23,13 +25,15 @@ i{
     font-size: 65px;
 }
 .container:active{
-    color: brown;
+    color: black;
     cursor: pointer;
-    transition: 1s;
+    transition: all .3s ease-in ;
    
 }
 i:active{
-    display: none;
+    display:none;
+   
+    
 }
 span{
     
@@ -37,5 +41,5 @@ span{
     top: 30%;
     left: 35%;
     font-size:30px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Pacifico', cursive;
 }
