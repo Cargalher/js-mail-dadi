@@ -22,4 +22,12 @@ if (userDice > computerDice) {
 
 
 // *************** dice game USING ARRAY ***************
+// numbers in a dice
 var diceRoll = [1, 2, 3, 4, 5, 6];
+console.log(diceRoll);
+// random number_Computer
+var computerDice = diceRoll[Math.floor(Math.random() * 6)];
+console.log("The computer rolls a "+ computerDice);
+// random number_User
+var userDice = diceRoll[Math.floor(Math.random() * 6)];
+console.log("The user rolls a "+ userDice);
